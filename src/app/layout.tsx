@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { Lexend } from "next/font/google";
 import "./globals.css";
@@ -18,7 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-en">
-      <body className={`${lexend.className} bg-zinc-950 text-zinc-50`}>{children}</body>
+      <body className={`${lexend.className} bg-zinc-950 text-zinc-50`}>
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
