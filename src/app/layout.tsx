@@ -8,7 +8,7 @@ const lexend = Lexend({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Erivelto Silva Portfolio Dev",
   keywords: "Erivelto, Clénio, Costa, Silva, Portfolio, Skills, Habilidades, Education, Educação, Projetos,Projects",
-  description: "Hi, I'm Erivelto Clénio da Costa e Silva and is my dev Portfolio",
+  description: "Hi, I'm Erivelto Silva and this is my dev Portfolio",
   icons: "/erivelto.jpg",
 };
 
