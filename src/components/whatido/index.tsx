@@ -51,7 +51,7 @@ export const WhatIDOSection = (props: Props) => {
                     <p>
                         I create comprehensive solutions from design to implementation. My focus is on developing responsive, visually appealing, and optimized websites.
                         My work includes content customization, feature integration, and ensuring an intuitive navigation experience. I use modern web technologies to build
-                        sites that are not only aesthetically pleasing but also fast and accessible. Whether it's an e-commerce site, a personal blog, or a corporate website, I ensure
+                        sites that are not only aesthetically pleasing but also fast and accessible. Whether it&apos;s s an e-commerce site, a personal blog, or a corporate website, I ensure
                         it meets the highest standards of quality and usability.
                     </p>
                 </div>
