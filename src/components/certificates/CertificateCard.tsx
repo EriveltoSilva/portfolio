@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 interface CaseProps {
     title: string;
@@ -13,20 +14,13 @@ export const CertificateCard = ({ title, description, image, altImage, className
     return (
         <article className="space-y-8 lg:w-[367px] w-full h-auto p-4 flex-shrink-0">
             <button onClick={handleOnclick}>
-                {/* <Image
+                <Image
                     src={image}
                     alt={altImage || title}
                     className="rounded-2xl w-full bg-cover"
                     width={367}
                     height={256}
 
-                /> */}
-                <img
-                    src={image}
-                    alt={altImage || title}
-                    className="rounded-2xl w-full bg-cover"
-                    width={367}
-                    height={256}
                 />
             </button>
 
