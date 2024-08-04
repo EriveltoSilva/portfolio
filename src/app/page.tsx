@@ -25,9 +25,6 @@ export default function Home() {
     setIsContactFormOpen(true);
   };
 
-  const closeContactFormModal = () => {
-    setIsContactFormOpen(false);
-  };
 
 
   return (

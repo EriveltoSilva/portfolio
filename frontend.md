@@ -3,22 +3,18 @@
 [NEXT_BADGE]: https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
 [PROJECT__URL]: https://github.com/ErivltoSilva/
-[REACT_HOOKS]: https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white
-[VERCEL_BADGE]: https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white
 
 
 
 <h1 align="center" style="font-weight: bold;">Portfloio Dev  💻</h1>
 
 ![next][NEXT_BADGE]
-![React Hooks][REACT_HOOKS]
 ![typescript][TYPESCRIPT__BADGE]
 ![TailwindCss][TailwindCSS_BADGE]
-![Vercel][VERCEL_BADGE]
 
 
 `Content:`
-<p align="center">
+<ol>
  <a href="#about">About</a>  • 
  <a href="#started">Getting Started</a> • 
  <a href="#prerequisites">Prerequisites</a> • 
@@ -27,7 +23,7 @@
  <a href="#contribute">Contributes</a>  • 
  <a href="#collaborators">Collaborators</a> • 
  <a href="#license">License</a> • 
-</p>
+</ol>
 
 
 
