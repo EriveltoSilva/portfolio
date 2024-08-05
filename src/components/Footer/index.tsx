@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
                 <div className="text-[32px] font-bold">
                     <NameTitle href='/' />
                 </div>
-                <p>Erivelto Silva Portfolio &copy; Inspired by <span className='text-blue-400'><a href="">O Code Lab webpage</a></span></p>
+                <p>Erivelto Silva Portfolio &copy; Inspired by <span className='text-blue-400'><a href="https://ocode-lab.com.br/" target="_blank">O Code Lab webpage</a></span></p>
             </div>
         </footer>
     );
