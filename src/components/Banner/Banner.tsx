@@ -34,9 +34,11 @@ export const Banner = (props: Props) => {
                                 <span className="bg-gradient-to-r from-[#00F0FF] to-[#2C82BC] text-transparent bg-clip-text">{" />"}</span>
                             </h1>
                         </div>
-                        <p className="text-[#CCFFFE] text-[18px] lg:text-2xl font-normal">
-                            FullStack Software Developer <br />
-                            And Artificial Intelligence Enthusiast
+                        <div className="text-[#CCFFFE] text-[18px] lg:text-2xl font-normal">
+                            <span>
+                                FullStack Software Developer <br />
+                                And Artificial Intelligence Enthusiast
+                            </span>
                             <div className="flex flex-wrap gap-5 mt-3">
                                 <MediaLink2 Icon={FaGithub} iconClassName='text-zinc-950 text-2xl' title='See my github repository' link='https://github.com/EriveltoSilva' />
                                 <MediaLink2 Icon={FaLinkedin} iconClassName='text-blue-600 text-2xl' title='See my LinkedIn profile' link='https://ao.linkedin.com/in/erivelto-silva-39a61a275' />
@@ -44,7 +46,7 @@ export const Banner = (props: Props) => {
                                 <MediaLink2 Icon={FaFilePdf} iconClassName='text-red-600 text-2xl' title='Download my cv in portuguese' link='/docs/cv/Curriculum Erivelto.pdf' />
                             </div>
 
-                        </p>
+                        </div>
                     </div>
                     <div className="mt-8 lg:mt-0 lg:ml-8">
                         <Image src={"/erivelto-pro.png"} width={"300"} height={"250"} alt="Erivelto Silva, professional image" />
