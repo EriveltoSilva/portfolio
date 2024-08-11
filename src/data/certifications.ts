@@ -2,6 +2,15 @@ import { Certificate } from "@/types/Certificates";
 
 export const certificates:Certificate[] = [
     {
+        "id":8,
+        "title":"Django and React: Build a Multi-vendor E-commerce Website",
+        "type":"Course",
+        "date":"Aug 11, 2024",
+        "hours":36,
+        "image":"/docs/certificates/Erivelto Silva Course Certificate - Django and React: Build a Multi-vendor E-commerce Website.jpg",
+        "description":""
+    },
+    {
         "id":7,
         "title":"Event - NLW Journey React from RockerSeat",
         "type":"Event",
