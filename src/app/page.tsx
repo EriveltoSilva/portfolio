@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
 import BGBODY from "@/assets/icons/bg.png";
-import { AboutUsSection } from "@/components/about-us";
+import { AboutMeSection } from "@/components/about-us";
 import { Banner } from "@/components/Banner/Banner";
 import { CertificatesSection } from "@/components/certificates";
 import Footer from "@/components/Footer";
@@ -13,10 +13,10 @@ import { useState } from "react";
 export default function Home() {
   const bg = {
     backgroundImage: `url(${BGBODY.src})`,
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    height: '100%',
-    width: '100%',
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    height: "100%",
+    width: "100%",
   };
 
   const [isContactFormOpen, setIsContactFormOpen] = useState<boolean>(false);
@@ -25,15 +25,13 @@ export default function Home() {
     setIsContactFormOpen(true);
   };
 
-
-
   return (
     <div>
       <Navbar openContactFormModal={openContactFormModal} />
       <Banner />
 
       <main style={bg}>
-        <AboutUsSection />
+        <AboutMeSection />
 
         <WhatIDOSection />
 
@@ -45,7 +43,6 @@ export default function Home() {
       {/* <CallActionSection openContactFormModal={openContactFormModal} /> */}
 
       <Footer />
-
     </div>
   );
 }
