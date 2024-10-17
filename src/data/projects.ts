@@ -4,7 +4,7 @@ import { PROJECT_CATEGORIES } from "@/types/project-categories";
 export const projects: ProjectEntity[] = [
   {
     id: 4,
-    title: "Electronic Suspension Bridge",
+    title: "Suspension Bridge",
     category: [PROJECT_CATEGORIES.ELECTRONIC_AUTOMATION, PROJECT_CATEGORIES.ROBOTIC],
     description:
       "Robotics project using Arduino to control a suspension bridge. Ultrasonic sensors detect boats, trigger traffic lights, and automatically open and close the bridge for safe passage",
@@ -26,7 +26,7 @@ export const projects: ProjectEntity[] = [
   },
   {
     id: 2,
-    title: "Everything- Chatbot",
+    title: "Everything - Chatbot",
     category: [PROJECT_CATEGORIES.LLM, PROJECT_CATEGORIES.CHATBOT],
     description:
       "Q&A app built with Python, Streamlit, Langchain, and OpenAI API. Delivers fast, accurate responses, with potential applications in tourism, healthcare, culinary, and more. My promising start for AI projects!",

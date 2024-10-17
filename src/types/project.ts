@@ -7,4 +7,5 @@ export type ProjectEntity = {
   youtubeVideoURL?: string;
   linkedinVideoURL?: string;
   githubRepositoryURL?: string;
+  programmingLanguage?: string[];
 };
