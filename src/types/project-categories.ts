@@ -4,6 +4,7 @@ export enum PROJECT_CATEGORIES {
   CHATBOT = "Chatbot",
   ELECTRONIC_AUTOMATION = "Electronic Automation",
   FRONTEND = "Frontend App",
+  FULL_STACK = "Full Stack",
   LLM = "LLM",
   ROBOTIC = "Robotic",
   WEBSITE = "Website",

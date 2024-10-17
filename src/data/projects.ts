@@ -23,7 +23,12 @@ export const projects: ProjectEntity[] = [
   {
     id: 9,
     title: "frontend challenge - Capputeeno 💻",
-    category: [PROJECT_CATEGORIES.FRONTEND, PROJECT_CATEGORIES.WEB_APPLICATION, PROJECT_CATEGORIES.WEBSITE],
+    category: [
+      PROJECT_CATEGORIES.FRONTEND,
+      PROJECT_CATEGORIES.WEB_APPLICATION,
+      PROJECT_CATEGORIES.WEBSITE,
+      PROJECT_CATEGORIES.FULL_STACK,
+    ],
     description:
       "E-commerce platform project using Next.js, TailwindCSS, and TypeScript to enhance frontend skills. Features include product catalog with pagination, category filters, search, cart management, and checkout. Focus on server components and GraphQL API consumption.",
     image: "/projects/ecommerce-frontend-challenge.png",
@@ -101,7 +106,7 @@ export const projects: ProjectEntity[] = [
   {
     id: 1,
     title: "InovAI Soluções Website",
-    category: [PROJECT_CATEGORIES.WEBSITE, PROJECT_CATEGORIES.FRONTEND],
+    category: [PROJECT_CATEGORIES.WEBSITE, PROJECT_CATEGORIES.FRONTEND, PROJECT_CATEGORIES.FULL_STACK],
     description:
       "A InovAI é uma Startup de automação completa, com foco em soluções desenvolvimento de software personalizados, soluções de IA (inteligência artificial) generativa, Robótica e Chatbot integrados, para atender as necessidades dos nossos clientes.",
     image: "/projects/inovai-website.png",
