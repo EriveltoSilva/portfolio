@@ -31,7 +31,7 @@ export const certificates: Certificate[] = [
     date: "Aug 11, 2024",
     hours: 36,
     image:
-      "/certificates/Erivelto Silva Course Certificate - Django and React: Build a Multi-vendor E-commerce Website.jpg",
+      "/certificates/Erivelto Silva Course Certificate - Django and React- Build a Multi-vendor E-commerce Website.jpg",
     description: "",
   },
   {

@@ -22,7 +22,7 @@ export const projects: ProjectEntity[] = [
   },
   {
     id: 9,
-    title: "frontend challenge - Capputeeno 💻",
+    title: "frontend challenge",
     category: [
       PROJECT_CATEGORIES.FRONTEND,
       PROJECT_CATEGORIES.WEB_APPLICATION,
@@ -31,7 +31,7 @@ export const projects: ProjectEntity[] = [
     ],
     description:
       "E-commerce platform project using Next.js, TailwindCSS, and TypeScript to enhance frontend skills. Features include product catalog with pagination, category filters, search, cart management, and checkout. Focus on server components and GraphQL API consumption.",
-    image: "/projects/ecommerce-frontend-challenge.png",
+    image: "/projects/ecommerce-frontend-challenge.jpg",
     githubRepositoryURL: "https://github.com/EriveltoSilva/frontend-challenge-giecommerce",
   },
   {
