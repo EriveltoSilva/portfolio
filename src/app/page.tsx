@@ -6,6 +6,7 @@ import { Banner } from "@/components/Banner/Banner";
 import { CertificatesSection } from "@/components/certificates";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import { ProjectsSection } from "@/components/projects";
 import { SkillsSection } from "@/components/skills";
 import { WhatIDOSection } from "@/components/whatido";
 import { useState } from "react";
@@ -36,6 +37,8 @@ export default function Home() {
         <WhatIDOSection />
 
         <SkillsSection />
+
+        <ProjectsSection />
 
         <CertificatesSection />
       </main>

@@ -1,0 +1,15 @@
+export enum PROJECT_CATEGORIES {
+  ALL = "All",
+  BACKEND_API = "Backend API",
+  CHATBOT = "Chatbot",
+  ELECTRONIC_AUTOMATION = "Electronic Automation",
+  FRONTEND = "Frontend App",
+  LLM = "LLM",
+  ROBOTIC = "Robotic",
+  WEBSITE = "Website",
+  WEB_APPLICATION = "Web application",
+  // ECONOMICS = 'Economics',
+  // BLOCKCHAIN = 'Blockchain',
+  // DATA_ANALYSIS = 'Data Analysis',
+  // MOBILE_APP = 'Mobile App',
+}
