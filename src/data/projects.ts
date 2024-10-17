@@ -3,6 +3,24 @@ import { PROJECT_CATEGORIES } from "@/types/project-categories";
 
 export const projects: ProjectEntity[] = [
   {
+    id: 6,
+    title: "Agro Energy",
+    category: [PROJECT_CATEGORIES.FRONTEND, PROJECT_CATEGORIES.WEB_APPLICATION],
+    description: "A web application to control energy parameters and soil health state.",
+    image: "/projects/agro-energy.png",
+    linkURL: "https://ka-solutions-agro-energy.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Travel plann.er",
+    category: [PROJECT_CATEGORIES.FRONTEND, PROJECT_CATEGORIES.WEB_APPLICATION],
+    description:
+      "An intuitive and visually appealing travel planner. Built with React, TypeScript, and Tailwind CSS, Plann.er offers a suite of features to help you organize your upcoming adventures.",
+    image: "/projects/travel-planner.png",
+    linkURL: "https://travel-planner-frontend-seven.vercel.app/",
+    githubRepositoryURL: "https://github.com/EriveltoSilva/travel-planner-frontend",
+  },
+  {
     id: 4,
     title: "Suspension Bridge",
     category: [PROJECT_CATEGORIES.ELECTRONIC_AUTOMATION, PROJECT_CATEGORIES.ROBOTIC],

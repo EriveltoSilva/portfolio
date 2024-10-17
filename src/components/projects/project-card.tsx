@@ -1,5 +1,6 @@
 import { ProjectEntity } from "@/types/project";
 import Image from "next/image";
+import { BiGlobe } from "react-icons/bi";
 import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { MediaLink2 } from "../Button/MediaLink";
 
@@ -19,6 +20,14 @@ export const ProjectCard = ({ project }: { project: ProjectEntity }) => {
         <div className="flex justify-between">
           <h3 className="text-base lg:text-xl font-semibold text-primary">{project.title}</h3>
           <div className="flex flex-wrap gap-2">
+            {project?.linkURL && (
+              <MediaLink2
+                Icon={BiGlobe}
+                iconClassName="text-zinc-950 text-2xl"
+                title="See this project 'running'"
+                link={project?.linkURL}
+              />
+            )}
             {project?.githubRepositoryURL && (
               <MediaLink2
                 Icon={FaGithub}
