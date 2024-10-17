@@ -15,9 +15,8 @@ export const ProjectsSection = () => {
   };
 
   const filteredProjects = filterProjects(selectedCategory);
-
   return (
-    <section id="certificates" className="py-24 px-10 lg:px-28">
+    <section id="projects" className="py-24 px-10 lg:px-28">
       <Title2 text="My Projects" />
 
       {/* Filtro de Categorias */}
