@@ -5,7 +5,7 @@ import { Title2 } from "../Titles/Title2";
 import { ProjectCard } from "./project-card";
 
 export const ProjectsSection = () => {
-  const [selectedCategory, setSelectedCategory] = useState<PROJECT_CATEGORIES>(PROJECT_CATEGORIES.ALL);
+  const [selectedCategory, setSelectedCategory] = useState<PROJECT_CATEGORIES>(PROJECT_CATEGORIES.BACKEND_API);
 
   const filterProjects = (category: PROJECT_CATEGORIES) => {
     if (category === PROJECT_CATEGORIES.ALL) {
@@ -45,8 +45,8 @@ export const ProjectsSection = () => {
         </div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
-          {filteredProjects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
+          {filteredProjects.map((project, index) => (
+            <ProjectCard key={index} project={project} />
           ))}
         </div>
       )}

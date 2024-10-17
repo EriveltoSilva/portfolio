@@ -7,14 +7,7 @@ import { MediaLink2 } from "../Button/MediaLink";
 export const ProjectCard = ({ project }: { project: ProjectEntity }) => {
   return (
     <article className="relative group bg-white w-full h-72 rounded-lg shadow-md overflow-hidden">
-      <Image
-        src={project?.image}
-        alt={project?.title}
-        className="w-full h-full object-cover"
-        width={0}
-        height={0}
-        sizes="100vw"
-      />
+      <Image src={project?.image} alt={project?.title} className="w-full h-full" width={0} height={0} sizes="100vw" />
       {/* Content showed on mouse hover */}
       <div className="h-2/5 absolute bottom-0 left-0 right-0 bg-gray-50 p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
         <div className="flex justify-between">

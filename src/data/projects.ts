@@ -2,6 +2,51 @@ import { ProjectEntity } from "@/types/project";
 import { PROJECT_CATEGORIES } from "@/types/project-categories";
 
 export const projects: ProjectEntity[] = [
+  // {
+  //   id: XXX,
+  //   title: "in-orbit-node-api",
+  //   category: [PROJECT_CATEGORIES.BACKEND_API],
+  //   description:
+  //     "Goal Management API with Node for managing daily/weekly goals. Users can create, complete, view pending goals, and generate weekly summaries of achievements.",
+  //   image: "/projects/in-orbit-frontend.gif",
+  //   githubRepositoryURL: "https://github.com/EriveltoSilva/in-orbit-goal-control-system-api",
+  // },
+  {
+    id: 10,
+    title: "drf-todo-list-api 💻",
+    category: [PROJECT_CATEGORIES.BACKEND_API],
+    description:
+      "Todo List API built with Django Rest Framework to practice RESTful API development. Features include CRUD operations, user authentication, task categorization, and priority setting.",
+    image: "/projects/drf-todo-api.png",
+    githubRepositoryURL: "https://github.com/EriveltoSilva/drf-todo-list-api",
+  },
+  {
+    id: 9,
+    title: "frontend challenge - Capputeeno 💻",
+    category: [PROJECT_CATEGORIES.FRONTEND, PROJECT_CATEGORIES.WEB_APPLICATION, PROJECT_CATEGORIES.WEBSITE],
+    description:
+      "E-commerce platform project using Next.js, TailwindCSS, and TypeScript to enhance frontend skills. Features include product catalog with pagination, category filters, search, cart management, and checkout. Focus on server components and GraphQL API consumption.",
+    image: "/projects/ecommerce-frontend-challenge.png",
+    githubRepositoryURL: "https://github.com/EriveltoSilva/frontend-challenge-giecommerce",
+  },
+  {
+    id: 8,
+    title: "in-orbit-drf-api",
+    category: [PROJECT_CATEGORIES.BACKEND_API],
+    description:
+      "Goal Management API with Django Rest Framework for managing daily/weekly goals. Users can create, complete, view pending goals, and generate weekly summaries of achievements.",
+    image: "/projects/in-orbit-drf-api.png",
+    githubRepositoryURL: "https://github.com/EriveltoSilva/in-orbit-django-rest-api",
+  },
+  {
+    id: 7,
+    title: "flask-api-for-barcode-generator",
+    category: [PROJECT_CATEGORIES.BACKEND_API],
+    description:
+      "Flask-based API for automated barcode generation, designed for scalability and seamless integration with physical stores and e-commerce. Flexible, extensible, and scalable architecture.",
+    image: "/projects/barcode-generator.png",
+    githubRepositoryURL: "https://github.com/EriveltoSilva/flask-api-for-barcode-generator",
+  },
   {
     id: 6,
     title: "Agro Energy",
