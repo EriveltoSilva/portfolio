@@ -1,3 +1,4 @@
+"use client";
 import { projects } from "@/data/projects";
 import { PROJECT_CATEGORIES } from "@/types/project-categories";
 import { useState } from "react";

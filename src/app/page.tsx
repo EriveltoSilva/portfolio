@@ -1,5 +1,3 @@
-"use client";
-
 import backgroundImage from "@/assets/images/bg.webp";
 import { AboutMeSection } from "@/components/about-us";
 import { Banner } from "@/components/Banner/Banner";
@@ -9,7 +7,6 @@ import Navbar from "@/components/Navbar";
 import { ProjectsSection } from "@/components/projects";
 import { SkillsSection } from "@/components/skills";
 import { WhatIDOSection } from "@/components/whatido";
-import { useState } from "react";
 
 export default function Home() {
   const bg = {
@@ -20,15 +17,9 @@ export default function Home() {
     width: "100%",
   };
 
-  const [isContactFormOpen, setIsContactFormOpen] = useState<boolean>(false);
-
-  const openContactFormModal = () => {
-    setIsContactFormOpen(true);
-  };
-
   return (
     <div>
-      <Navbar openContactFormModal={openContactFormModal} />
+      <Navbar />
       <Banner />
 
       <main style={bg}>
