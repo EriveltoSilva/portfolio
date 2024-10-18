@@ -1,6 +1,6 @@
 "use client";
 
-import BGBODY from "@/assets/icons/bg.png";
+import backgroundImage from "@/assets/images/bg.webp";
 import { AboutMeSection } from "@/components/about-us";
 import { Banner } from "@/components/Banner/Banner";
 import { CertificatesSection } from "@/components/certificates";
@@ -13,7 +13,7 @@ import { useState } from "react";
 
 export default function Home() {
   const bg = {
-    backgroundImage: `url(${BGBODY.src})`,
+    backgroundImage: `url(${backgroundImage.src})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     height: "100%",
