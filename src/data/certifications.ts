@@ -7,8 +7,17 @@ enum TypeCertificate {
 
 export const certificates: Certificate[] = [
   {
+    id: 11,
+    title: "Introdução ao Python",
+    type: TypeCertificate.Course,
+    date: "nov 10, 2024",
+    hours: 10,
+    image: "/certificates/Erivelto Silva Course Certificate - Introdução ao Python da Rocketseat.png",
+    description: "",
+  },
+  {
     id: 10,
-    title: "Mini Curso da Java da RocketSeat",
+    title: "Mini Curso da Java",
     type: TypeCertificate.Course,
     date: "Set 15, 2024",
     hours: 5,
