@@ -12,6 +12,15 @@ export const projects: ProjectEntity[] = [
   //   githubRepositoryURL: "https://github.com/EriveltoSilva/in-orbit-goal-control-system-api",
   // },
   {
+    id: 11,
+    title: "Django Fullstack Website 💻",
+    category: [PROJECT_CATEGORIES.WEBSITE, PROJECT_CATEGORIES.FULL_STACK, PROJECT_CATEGORIES.FRONTEND],
+    description: "My second professional website with Django Framework, a freelancer project.",
+    image: "/projects/Django Website - Henriqueta Silva.webp",
+    githubRepositoryURL: "https://github.com/EriveltoSilva/django-website-henriquetasilva",
+    youtubeVideoURL: "https://youtu.be/OsltUX2mtXw",
+  },
+  {
     id: 10,
     title: "drf-todo-list-api 💻",
     category: [PROJECT_CATEGORIES.BACKEND_API],
