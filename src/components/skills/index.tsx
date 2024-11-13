@@ -98,7 +98,7 @@ export const SkillsSection = (props: Props) => {
       <div className="space-y-16">
         <Title3
           Icon={CursorIconPurple}
-          text="Frameworks, Technologies, Libraries and Others"
+          text="Frameworks, Libraries and Others"
           bgCircleColor="bg-purple-700"
           borderColor="border-purple-700"
         />

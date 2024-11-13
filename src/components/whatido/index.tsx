@@ -32,7 +32,7 @@ export const WhatIDOSection = (props: Props) => {
           <Image
             src={"/landing-page.png"}
             alt="What this Code Lab does"
-            className="w-[518px] h-[294px] object-cover"
+            className="w-full h-full object-cover"
             width={0}
             height={0}
             sizes="100vw"
@@ -69,7 +69,7 @@ export const WhatIDOSection = (props: Props) => {
           <Image
             src={"/websites.png"}
             alt="What this Code Lab does"
-            className="w-[518px] h-[294px]"
+            className="w-full h-full"
             width={0}
             height={0}
             sizes="100vw"
@@ -114,7 +114,7 @@ export const WhatIDOSection = (props: Props) => {
           <Image
             src={"/sistemas.png"}
             alt="What this Code Lab does"
-            className="w-[518px] h-[294px] object-cover"
+            className="w-full h-full object-cover"
             width={0}
             height={0}
             sizes="100vw"
