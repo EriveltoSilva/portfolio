@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import { ProjectsSection } from "@/components/projects";
 import { SkillsSection } from "@/components/skills";
 import { WhatIDOSection } from "@/components/whatido";
+import 'aos/dist/aos.css'; // Import AOS styles
 
 export default function Home() {
   const bg = {

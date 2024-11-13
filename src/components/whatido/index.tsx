@@ -3,6 +3,7 @@ import { Title2 } from "../Titles/Title2";
 import { Title3 } from "../Titles/Title3";
 
 import { CursorIconGreen, CursorIconOrange, CursorIconPurple } from "@/assets/icons/CursoIcon";
+import { FadeWrapper } from "../AOS/FadeWrapper/fade-wrapper";
 
 type Props = {};
 
@@ -28,7 +29,7 @@ export const WhatIDOSection = (props: Props) => {
           </p>
         </div>
 
-        <div className="w-full flex justify-center lg:justify-start">
+        <FadeWrapper dataAOS="fade-left" className="w-full flex justify-center lg:justify-start">
           <Image
             src={"/landing-page.png"}
             alt="What this Code Lab does"
@@ -37,7 +38,7 @@ export const WhatIDOSection = (props: Props) => {
             height={0}
             sizes="100vw"
           />
-        </div>
+        </FadeWrapper>
       </article>
 
       {/* <article className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:justify-items-center justify-items-start ">
@@ -65,7 +66,7 @@ export const WhatIDOSection = (props: Props) => {
       </article> */}
 
       <article className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:justify-items-center justify-items-start">
-        <div className="w-full flex justify-center lg:justify-start">
+        <FadeWrapper dataAOS="fade-right" className="w-full flex justify-center lg:justify-start">
           <Image
             src={"/websites.png"}
             alt="What this Code Lab does"
@@ -74,7 +75,7 @@ export const WhatIDOSection = (props: Props) => {
             height={0}
             sizes="100vw"
           />
-        </div>
+        </FadeWrapper>
 
         <div className="space-y-10">
           <Title3
@@ -110,7 +111,7 @@ export const WhatIDOSection = (props: Props) => {
           </p>
         </div>
 
-        <div className="w-full flex justify-center lg:justify-start">
+        <FadeWrapper dataAOS="fade-left" className="w-full flex justify-center lg:justify-start">
           <Image
             src={"/sistemas.png"}
             alt="What this Code Lab does"
@@ -119,7 +120,7 @@ export const WhatIDOSection = (props: Props) => {
             height={0}
             sizes="100vw"
           />
-        </div>
+        </FadeWrapper>
       </article>
     </section>
   );

@@ -1,12 +1,13 @@
 import Image from "next/image";
 
+import { FadeWrapper } from "../AOS/FadeWrapper/fade-wrapper";
 import { Title2 } from "../Titles/Title2";
 type Props = {};
 
 export const AboutMeSection = (props: Props) => {
   return (
     <section id="about" className="py-24 px-10 lg:px-28 grid lg:grid-cols-2 grid-cols-1 gap-4 justify-items-center">
-      <div className="space-y-10 lg:items-start">
+      <FadeWrapper dataAOS="fade-right" className="space-y-10 lg:items-start">
         <Title2 text="About me" />
         <p>
           Hi, I&apos;m <span className="text-blue-600"> Erivelto Clénio da Costa e Silva</span>, a junior backend
@@ -31,9 +32,9 @@ export const AboutMeSection = (props: Props) => {
           enthusiasm for learning and applying emerging technologies, I&apos;m here to contribute and offer solutions
           that propel your projects to the next level.
         </p>
-      </div>
+      </FadeWrapper>
 
-      <div className="flex justify-center lg:justify-start">
+      <FadeWrapper dataAOS="flip-down" className="flex justify-center lg:justify-start">
         <Image
           src={"/erivelto.jpg"}
           alt="Who is Erivelto Silva"
@@ -42,7 +43,7 @@ export const AboutMeSection = (props: Props) => {
           height={0}
           sizes="100vw"
         />
-      </div>
+      </FadeWrapper>
     </section>
   );
 };

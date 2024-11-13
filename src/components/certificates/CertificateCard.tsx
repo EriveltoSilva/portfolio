@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import { FadeWrapper } from "../AOS/FadeWrapper/fade-wrapper";
 interface CaseProps {
   title: string;
   description: string;
@@ -12,7 +12,7 @@ interface CaseProps {
 
 export const CertificateCard = ({ title, description, image, altImage, className, handleOnclick }: CaseProps) => {
   return (
-    <article className="space-y-8 md:w-[367px] w-full h-auto p-4 flex-shrink-0">
+    <FadeWrapper dataAOS="fade-left" className="space-y-8 md:w-[367px] w-full h-auto p-4 flex-shrink-0">
       <button onClick={handleOnclick} className="w-full">
         <Image
           src={image}
@@ -23,12 +23,10 @@ export const CertificateCard = ({ title, description, image, altImage, className
           sizes="100vw"
         />
       </button>
-
       <h4 className="text-white font-semibold text-2xl">
         <button onClick={handleOnclick}>{title}</button>
       </h4>
-
       <p className="font-normal text-white">{description}</p>
-    </article>
+    </FadeWrapper>
   );
 };

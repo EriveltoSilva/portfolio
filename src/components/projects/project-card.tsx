@@ -1,12 +1,20 @@
 import { ProjectEntity } from "@/types/project";
+import AOS from "aos";
 import Image from "next/image";
+import { useEffect } from "react";
 import { BiGlobe } from "react-icons/bi";
 import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { MediaLink2 } from "../Button/MediaLink";
 
 export const ProjectCard = ({ project }: { project: ProjectEntity }) => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200, // You can customize the animation duration here
+    });
+  }, []);
+
   return (
-    <article className="relative group bg-white w-full h-72 rounded-lg shadow-md overflow-hidden">
+    <article data-aos="fade-up" className="relative group bg-white w-full h-72 rounded-lg shadow-md overflow-hidden">
       <Image src={project?.image} alt={project?.title} className="w-full h-full" width={0} height={0} sizes="100vw" />
       {/* Content showed on mouse hover */}
       <div className="h-2/5 absolute bottom-0 left-0 right-0 bg-gray-50 py-1 px-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
