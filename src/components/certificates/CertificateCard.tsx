@@ -12,7 +12,7 @@ interface CaseProps {
 
 export const CertificateCard = ({ title, description, image, altImage, className, handleOnclick }: CaseProps) => {
   return (
-    <article className="space-y-8 md:w-[367px] w-full h-auto p-4 flex-shrink-0 bg-red-500">
+    <article className="space-y-8 md:w-[367px] w-full h-auto p-4 flex-shrink-0">
       <button onClick={handleOnclick} className="w-full">
         <Image
           src={image}
