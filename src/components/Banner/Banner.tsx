@@ -57,17 +57,17 @@ export const Banner = (props: Props) => {
                   title="See my LinkedIn profile"
                   link="https://ao.linkedin.com/in/erivelto-silva-39a61a275"
                 />
-                <MediaLink2
+                {/* <MediaLink2
                   Icon={FaFilePdf}
                   iconClassName="text-red-600 text-2xl"
                   title="Download my cv in english"
                   link={"/docs/cv/Erivelto´s  Curriculum.pdf"}
-                />
+                /> */}
                 <MediaLink2
                   Icon={FaFilePdf}
                   iconClassName="text-red-600 text-2xl"
                   title="Download my cv in portuguese"
-                  link="/docs/cv/Curriculum Erivelto.pdf"
+                  link="/docs/cv/Curriculum - Erivelto.pdf"
                 />
               </div>
             </div>

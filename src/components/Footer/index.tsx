@@ -35,17 +35,17 @@ const Footer: React.FC = () => {
             title="See my Youtube Channel"
             link="https://www.youtube.com/channel/UCC7-b4HzSJIpg9vn3CmRw0Q"
           />
-          <MediaLink2
+          {/* <MediaLink2
             Icon={FaFilePdf}
             iconClassName="text-red-600 text-2xl"
             title="Download my cv in english"
             link={"/docs/cv/Erivelto´s  Curriculum.pdf"}
-          />
+          /> */}
           <MediaLink2
             Icon={FaFilePdf}
             iconClassName="text-red-600 text-2xl"
             title="Download my cv in portuguese"
-            link="/docs/cv/Curriculum Erivelto.pdf"
+            link="/docs/cv/Curriculum - Erivelto.pdf"
           />
         </div>
       </div>
