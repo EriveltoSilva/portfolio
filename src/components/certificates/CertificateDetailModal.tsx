@@ -18,7 +18,7 @@ export function CertificateDetailModal({ certificate, closeCertificateDetailModa
         >
           <X2Icon />
         </button>
-        <FadeWrapper dataAOS="zoom-in-up" className="relative w-full h-full">
+        <FadeWrapper dataAOS="zoom-in-up" className="relative w-full h-full mt-4">
           <Image src={certificate.image} alt="Certificate" layout="fill" objectFit="contain" />
         </FadeWrapper>
       </div>
