@@ -7,6 +7,15 @@ enum TypeCertificate {
 
 export const certificates: Certificate[] = [
   {
+    id: 13,
+    title: "XO Platform - Developer (Basic)",
+    type: TypeCertificate.Course,
+    date: "dez 23, 2024",
+    hours: 15,
+    image: "/certificates/Erivelto Course Certificate - XO Platform Developer.png",
+    description: "",
+  },
+  {
     id: 12,
     title: "NLW Pocket: Mobile - React Native",
     type: TypeCertificate.Event,
