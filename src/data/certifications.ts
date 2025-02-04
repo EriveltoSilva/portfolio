@@ -7,6 +7,15 @@ enum TypeCertificate {
 
 export const certificates: Certificate[] = [
   {
+    id: 15,
+    title: "Visão Computacional: O Guia Completo",
+    type: TypeCertificate.Course,
+    date: "fev 04, 2025",
+    hours: 21.5,
+    image: "/certificates/Erivelto Silva - Course Certificate - Visão Computacional.jpeg",
+    description: "",
+  },
+  {
     id: 14,
     title: "Machine Learning e Data Science com Python de A a Z",
     type: TypeCertificate.Course,
