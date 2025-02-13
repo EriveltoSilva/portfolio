@@ -7,6 +7,15 @@ enum TypeCertificate {
 
 export const certificates: Certificate[] = [
   {
+    id: 16,
+    title: "Machine Learning A-Z: AI, Python & R + ChatGPT Prize[2025]",
+    type: TypeCertificate.Course,
+    date: "fev 13, 2025",
+    hours: 42.5,
+    image: "/certificates/Erivelto SIlva Course Certificate - Machine Learning A-Z.png",
+    description: "",
+  },
+  {
     id: 15,
     title: "Visão Computacional: O Guia Completo",
     type: TypeCertificate.Course,
