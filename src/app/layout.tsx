@@ -10,7 +10,7 @@ const lexend = Lexend({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Erivelto Silva | Full-Stack Developer & Digital Solutions Creator",
   description:
-    "Welcome to the portfolio of Erivelto Silva, a full-stack developer focused on building modern web applications and IoT solutions. Explore projects, skills, experience, and contact details.",
+    "Welcome to the portfolio of Erivelto Silva, a  innovation analyst and full-stack developer focused on building modern web applications with AI and IoT solutions. Explore projects, skills, experience, and contact details.",
   keywords: [
     "Erivelto Silva",
     "Erivelto Clénio",
