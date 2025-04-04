@@ -1,3 +1,4 @@
+import { websiteURL } from "@/constants/addresses";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
@@ -5,8 +6,6 @@ import { Lexend } from "next/font/google";
 import "./globals.css";
 
 const lexend = Lexend({ subsets: ["latin"] });
-
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://erivelto-silva-portfolio.vercel.app";
 
 export const metadata: Metadata = {
   title: "Erivelto Silva | Full-Stack Developer & Digital Solutions Creator",
@@ -17,36 +16,25 @@ export const metadata: Metadata = {
     "Erivelto Clénio",
     "Full-Stack Developer",
     "Artificial Intelligence Engineer",
-    "AI Engineer",
     "Machine Learning",
-    "Machine Learning Engineer",
-    "Data Science",
-    "Full-Stack Developer Angola",
     "Software Engineer",
-    "Software Developer Angola",
     "Deep Learning",
     "Computer Vision",
     "Natural Language Processing",
     "Web Developer",
-    "Portfolio",
     "Next.js",
     "React",
     "Node.js",
     "Django",
+    "Spring Boot",
+    "Java",
+    "Python",
+    "JavaScript",
+    "TypeScript",
     "IoT Developer",
-    "Web Development",
+    "Tech Portfolio",
     "Programming Projects",
-    "Tech",
     "Angola Developer",
-    "Desenvolvedor Full-Stack",
-    "Desenvolvedor de Software",
-    "Engenheiro de Software",
-    "Desenvolvedor Web",
-    "Desenvolvedor de Aplicativos",
-    "Desenvolvedor de IoT",
-    "Desenvolvedor de Aplicativos Web",
-    "Projetos de Programação",
-    "Tecnologia",
   ].join(", "),
   icons: {
     icon: "/erivelto.jpg",
@@ -56,16 +44,16 @@ export const metadata: Metadata = {
   authors: [{ name: "Erivelto Silva", url: "https://www.linkedin.com/in/erivelto-da-costa-e-silva/" }],
   creator: "Erivelto Silva",
   publisher: "Erivelto Silva",
-  metadataBase: new URL(baseUrl),
+  metadataBase: new URL(websiteURL),
   openGraph: {
     title: "Erivelto Silva | Full-Stack Developer & Digital Solutions Creator",
     description:
       "Full-stack portfolio by Erivelto Silva, showcasing modern web apps and IoT projects. Discover his skills, tech stack, and contact info.",
-    url: baseUrl,
+    url: websiteURL,
     siteName: "Erivelto Silva | Portfolio",
     images: [
       {
-        url: `${baseUrl}/erivelto.jpg`,
+        url: `${websiteURL}/erivelto.jpg`,
         width: 1200,
         height: 630,
         alt: "Erivelto Silva - Full-Stack Developer",
@@ -81,7 +69,7 @@ export const metadata: Metadata = {
       "Explore Erivelto Silva's portfolio — full-stack developer building apps with React, Node.js, Django, and IoT solutions.",
     creator: "@erivelto_clenio",
     site: "@erivelto_clenio",
-    images: [`${baseUrl}/erivelto.jpg`],
+    images: [`${websiteURL}/erivelto.jpg`],
   },
 };
 
@@ -91,7 +79,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-en">
+    <html lang="en">
       <body className={`${lexend.className} bg-zinc-950 text-zinc-50`}>
         {children}
         <SpeedInsights />

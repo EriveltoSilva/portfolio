@@ -5,9 +5,10 @@ import { CertificatesSection } from "@/components/certificates";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { ProjectsSection } from "@/components/projects";
+import { SeoSchema } from "@/components/seo";
 import { SkillsSection } from "@/components/skills";
 import { WhatIDOSection } from "@/components/whatido";
-import 'aos/dist/aos.css'; // Import AOS styles
+import "aos/dist/aos.css"; // Import AOS styles
 
 export default function Home() {
   const bg = {
@@ -21,8 +22,11 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <Banner />
 
+      {/* JSON-LD Structured Data */}
+      <SeoSchema />
+
+      <Banner />
       <main style={bg}>
         <AboutMeSection />
 
