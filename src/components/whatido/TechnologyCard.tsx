@@ -27,11 +27,11 @@ export const TechnologyCard = ({
         {Icon && <Icon className={iconClassName} />}
         <h4 className="text-start font-semibold text-2xl">{title}</h4>
         <p className="truncate-lines truncate-lines-3">{description}</p>
-        <div className="w-full bg-gray-200 rounded-full">
+        {/* <div className="w-full bg-gray-200 rounded-full">
           <div className="bg-blue-600 py-0.5 text-center rounded-full" style={{ width: `${expertiseLevel}%` }}>
             <span className="text-white text-sm">{expertiseLevel}%</span>
           </div>
-        </div>
+        </div> */}
       </FadeWrapper>
     </>
   );

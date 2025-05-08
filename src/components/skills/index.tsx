@@ -15,6 +15,7 @@ import { RiNextjsLine } from "react-icons/ri";
 import {
   SiArduino,
   SiDjango,
+  SiFastapi,
   SiMysql,
   SiPostgresql,
   SiSpring,
@@ -141,6 +142,14 @@ export const SkillsSection = (props: Props) => {
             Icon={SiDjango}
             iconClassName="bg-red-900 text-white text-4xl rounded-sm p-1"
             description="A high-level Python web framework that encourages rapid development and clean, pragmatic design."
+            expertiseLevel={95}
+          />
+          <TechnologyCard
+            className="border-blue-500"
+            title="FastAPI"
+            Icon={SiFastapi}
+            iconClassName="bg-blue-900 text-white text-4xl rounded-sm p-1"
+            description="One of the fastest growing Python API development frameworks available. Easy to use,lightweight, with a automatic Swagger docs generation and modern, open standards of development."
             expertiseLevel={95}
           />
           <TechnologyCard
