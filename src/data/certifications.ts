@@ -7,6 +7,16 @@ enum TypeCertificate {
 
 export const certificates: Certificate[] = [
   {
+    id: 18,
+    title: "Início Rápido em Teste e QA",
+    type: TypeCertificate.Course,
+    date: "jul 28 2025",
+    hours: 15,
+    image:
+      "/certificates/Erivelto Silva -  Course Certificate - Inicio Rápido em Testes - UC-6d1c852b-de5a-4cf3-84a3-30808eb65ace.jpg",
+    description: "",
+  },
+  {
     id: 17,
     title: "FastAPI - The Complete Course 2025 (Beginner + Advanced)",
     type: TypeCertificate.Course,
